@@ -113,28 +113,44 @@
 
 // console.log(`${biggest} is biggest`);
 
-const grade1 = prompt("Please enter your grade:");
+// const grade1 = prompt("Please enter your grade:");
 
-grade1 >= 50 ? console.log("SUCCEED") : console.log("FAILED");
+// grade1 >= 50 ? console.log("SUCCEED") : console.log("FAILED");
 
-const score = grade1 >= 50 ? "PASSED" : "FAILED";
-console.log(score);
+// const score = grade1 >= 50 ? "PASSED" : "FAILED";
+// console.log(score);
 
-const score1 = grade1 >= 50 ? "SUCCEED" : "";
-console.log(score1);
+// const score1 = grade1 >= 50 ? "SUCCEED" : "";
+// console.log(score1);
 
-const speed = 110;
+// const speed = 110;
 
-speed > 120
-  ? console.log("Speedy")
-  : speed >= 90
-  ? console.log("Normal")
-  : console.log("Low Speed");
+// speed > 120
+//   ? console.log("Speedy")
+//   : speed >= 90
+//   ? console.log("Normal")
+//   : console.log("Low Speed");
 
-if (speed > 120) {
-  console.log("Speedy");
-} else if (speed >= 90) {
-  console.log("Normal");
-} else {
-  console.log("Low Speed");
-}
+// if (speed > 120) {
+//   console.log("Speedy");
+// } else if (speed >= 90) {
+//   console.log("Normal");
+// } else {
+//   console.log("Low Speed");
+// }
+
+const age = 15;
+
+let description = "";
+
+// if (age >= 18) {
+//   description = "Adult";
+// }
+
+// description = age >= 18 ? "Adult" : "";
+
+age >= 18 && (description = "Adult");
+
+age >= 18 || (description = "Adult");
+
+console.log(description);
