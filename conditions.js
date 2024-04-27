@@ -11,14 +11,27 @@ console.log(Number("0"));
 console.log(Number(" "));
 console.log(Number(""));
 console.log(Number(null));
+console.log(Number(undefined));
 
 const myNumber = "threezeroone";
 let myNumber2 = Number(myNumber);
 console.log(myNumber2);
 console.log(typeof myNumber2);
 
-const dolar = "1000";
-const tl = "2000";
+const dolar = "1000.3";
+const tl = "2000.2";
 
 const totalMoney = Number(dolar) + +tl;
 console.log(totalMoney);
+
+const dolarInt = parseInt(dolar);
+console.log(dolarInt);
+const tlFloat = parseFloat(tl);
+console.log(tlFloat);
+
+console.log(parseFloat(null));
+console.log(parseFloat(""));
+console.log(parseFloat(undefined));
+
+const myNumber3 = 2000.5;
+console.log(String(myNumber3));
